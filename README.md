@@ -1,2 +1,7 @@
 # Market-Analysis-and-Forecasting-of-Kalimati-Grocery-Market
-Minor Project
+The Karimati fruit and vegetable market is the main organized terminal wholesale market in Nepal where retailers, institutional consumers and other large consumers source their supplies. This market alone covers 60-70% of the demand in the Kathmandu Valley. Since 2016 AD for the Karimati market, we have been collecting data since we proposed a comprehensive fit of function development and interpolation by regression to predict price movements in the Karimati market. We also analyze data and commodity price rises and falls depending on the weather in Nepal. We also performed a seasonal analysis with SARIMAX for vegetables and fruits. In our project, we used ARIMA models for linear modeling of univariate time series analysis and forecasting. It also presents the analysis during Covid and Pre-Covid and their conditions on the prices of raw materials in the market. Use VAR (Vector Auto Regression) for multivariate time series analysis. We also used LSTM (Long Short-Term Memory) for time series analysis. We then compared the results of different algorithms. This project is implemented to meet the curriculum requirements of the Bachelor of Computer Engineering degree.
+
+In this repository, we have published results for several fruits and vegetables using different algorithms.
+
+Conclusion:
+Various models have been applied to predict commodity prices, including models such as ARIMA, SARIMAX, VAR, and LSTM. Among them, the Karimati market commodities have seasonal aspects, so the best accuracy was achieved by SARIMAX for monthly averages. For daily forecasts, his LSTM, which also considers other factors such as precipitation and temperature, gave the best results. 
